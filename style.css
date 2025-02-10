@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  height: 100px;
+  background-color: #183457;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header h1 {
+  font-size: 24px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1280px) {
+  .Header h1 {
+    font-size: 14px;
+  }
+}
+
+.uniq-affilate {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  align-items: center;
+}
+
+.uniq-affilate-container {
+  width: 80%;
+}
+
+.uniq-aff-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.uniq-aff-info h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #31324f;
+}
+
+.empty-div-inaff {
+  height: 5vh;
+}
+
+.uniq-aff-info-para {
+  padding: 0px 50px;
+  font-size: 15px;
+  color: #575757;
+  text-align: center;
+}
+
+.uniq-form-sec-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* background-color: #183457; */
+  margin-bottom: 80px;
+}
+
+.uniq-form-sec-title h1 {
+  text-transform: uppercase;
+  color: white;
+  color: #183457;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* Contact Forms */
+
+.uniq-contact-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Affiliate Program Form Container*/
+.uniq-aff-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background-color: #183457;
+  padding: 50px 0px;
+  border-radius: 15px;
+}
+
+/* Affiliate Program Form  Header*/
+.uniq-aff-form h1 {
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 80px;
+}
+
+/* Affiliate Program Form */
+.uniq-aff-form form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* Affiliate Program Form Label*/
+.uniq-aff-form form label {
+  color: white;
+}
+
+/* Affiliate Program Form Input*/
+.uniq-aff-form form input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+  background-color: #183457;
+  outline: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Affiliate Program Form TextArea*/
+.uniq-aff-form form textarea {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+  background-color: #183457;
+  outline: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.add-more-links {
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #183457;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+/* Affiliate Program Form Button*/
+.uniq-aff-form form .uniq-aff-submit-btn {
+  background-color: #ffffff;
+  color: #183457;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-top: 55px;
+}
+
+.additional-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .uniq-affilate-container {
+    width: 90%;
+  }
+  .uniq-aff-info {
+    height: 100%;
+  }
+
+  .uniq-aff-info h1 {
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .uniq-aff-info .empty-div-inaff {
+    height: 2vh;
+  }
+  .uniq-aff-info-para {
+    padding: 0px 1px;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .uniq-contact-forms {
+    flex-direction: column;
+  }
+
+  .uniq-form-sec-title {
+    margin-bottom: 10px;
+  }
+
+  .uniq-aff-form {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .uniq-aff-form form {
+    width: 90%;
+  }
+  .uniq-aff-form h1 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .uniq-aff-form form label {
+    font-size: 14px;
+  }
+}
