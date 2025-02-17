@@ -191,6 +191,12 @@
   display: none;
 }
 
+@media screen and (max-width: 1280px) {
+  .uniq-aff-form  {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .uniq-affilate-container {
     width: 90%;
