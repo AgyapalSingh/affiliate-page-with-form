@@ -144,6 +144,12 @@
   outline: none;
   color: white;
   font-family: "Poppins", sans-serif;
+  height: 90px;
+  margin-top: 5px;
+}
+
+.uniq-aff-form form textarea::placeholder{
+  font-style: italic;
 }
 
 .add-more-links {
