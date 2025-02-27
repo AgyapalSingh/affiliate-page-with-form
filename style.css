@@ -252,4 +252,7 @@
   .uniq-aff-form form label {
     font-size: 14px;
   }
+  .uniq-aff-form form textarea {
+    height: 100px;
+  }
 }
